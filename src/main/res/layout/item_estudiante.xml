@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lblNumero"
+        android:layout_width="45dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:paddingBottom="3dp"/>
+
+        <TextView
+            android:id="@+id/lblCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:paddingBottom="3dp"
+
+            />
+
+        <TextView
+            android:id="@+id/lblMateria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Materia : 9"
+            android:paddingBottom="3dp"/>
+
+    </LinearLayout>
+</LinearLayout>
